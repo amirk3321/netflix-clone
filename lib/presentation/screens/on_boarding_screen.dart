@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:netflix_clone/domain/entities/on_boarding_entity.dart';
+import 'package:netflix_clone/presentation/pages/choose_your_plan_page.dart';
+import 'package:netflix_clone/presentation/widgets/header_widget.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   @override
@@ -17,39 +19,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
         children: [
           _pageViewBuilderWidget(),
           _columnWidget(),
-          _rowWidget(),
-        ],
-      ),
-    );
-  }
-
-  Widget _rowWidget() {
-    return Container(
-      margin: EdgeInsets.only(top: 15),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Container(
-            height: 70,
-            width: 70,
-            child: Image.asset('assets/n_symbol.png'),
-          ),
-          Row(
-            children: [
-              Text("PRIVACY"),
-              SizedBox(
-                width: 10,
-              ),
-              Text("HELP"),
-              SizedBox(
-                width: 10,
-              ),
-              Text("SIGN IN"),
-              SizedBox(
-                width: 10,
-              ),
-            ],
-          )
+          HeaderWidget(),
         ],
       ),
     );
@@ -155,18 +125,28 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
           SizedBox(
             height: 20,
           ),
-          Container(
-            margin: EdgeInsets.only(bottom: 10, right: 15, left: 15),
-            padding: EdgeInsets.symmetric(vertical: 12),
-            width: double.infinity,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.all(
-                Radius.circular(5),
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => ChooseYourPlanPage(),
+                ),
+              );
+            },
+            child: Container(
+              margin: EdgeInsets.only(bottom: 10, right: 15, left: 15),
+              padding: EdgeInsets.symmetric(vertical: 12),
+              width: double.infinity,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.all(
+                  Radius.circular(5),
+                ),
+                color: Colors.red,
               ),
-              color: Colors.red,
+              child: Text("GET STARTED"),
             ),
-            child: Text("GET STARTED"),
           )
         ],
       ),
