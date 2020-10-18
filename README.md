@@ -7,17 +7,25 @@
 
 ### Preview
 
-![ezgif com-crop(1)](https://user-images.githubusercontent.com/10207753/95652239-0b78a800-0b09-11eb-99eb-fb813613f06d.gif)
+![ezgif com-crop(1)](https://user-images.githubusercontent.com/10207753/96368402-208ab200-116d-11eb-9c48-4fcf9d54872e.gif)
+ <br/>
+ ![ezgif com-crop(1)](https://user-images.githubusercontent.com/10207753/95652239-0b78a800-0b09-11eb-99eb-fb813613f06d.gif)
  <br/>
  
 ### Screenshots
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/10207753/95652225-04519a00-0b09-11eb-8463-88033884a492.png" height="500" /> 
-    <img src="https://user-images.githubusercontent.com/10207753/95652227-0582c700-0b09-11eb-8051-5d55ebfaa788.png" height="500" /> 
-        <img src="https://user-images.githubusercontent.com/10207753/95652233-074c8a80-0b09-11eb-99b2-4f46f53865b0.png" height="500" /> 
-                <img src="https://user-images.githubusercontent.com/10207753/95652234-087db780-0b09-11eb-82f1-36aac0840d6b.png" height="500" /> 
-                  <img src="https://user-images.githubusercontent.com/10207753/95652237-0a477b00-0b09-11eb-9508-3404584f5f0a.png" height="500" /> 
+  <img src="https://user-images.githubusercontent.com/10207753/95652227-0582c700-0b09-11eb-8051-5d55ebfaa788.png" height="500" /> 
+  <img src="https://user-images.githubusercontent.com/10207753/95652233-074c8a80-0b09-11eb-99b2-4f46f53865b0.png" height="500" /> 
+  <img src="https://user-images.githubusercontent.com/10207753/95652234-087db780-0b09-11eb-82f1-36aac0840d6b.png" height="500" /> 
+  <img src="https://user-images.githubusercontent.com/10207753/95652237-0a477b00-0b09-11eb-9508-3404584f5f0a.png" height="500" /> 
+ 
+   <img src="https://user-images.githubusercontent.com/10207753/96368390-15378680-116d-11eb-85d5-129e11830c23.png" height="500" /> 
+   <img src="https://user-images.githubusercontent.com/10207753/96368392-17014a00-116d-11eb-9d49-f3f52da9de7d.png" height="500" /> 
+   <img src="https://user-images.githubusercontent.com/10207753/96368395-18cb0d80-116d-11eb-8946-74946893c339.png" height="500" /> 
+   <img src="https://user-images.githubusercontent.com/10207753/96368396-1c5e9480-116d-11eb-85fb-aeab5d9579de.png" height="500" /> 
+     <img src="https://user-images.githubusercontent.com/10207753/96368400-1ec0ee80-116d-11eb-99e3-1312eb6e392d.png" height="500" /> 
   <br />
 </p>
 
@@ -27,7 +35,7 @@
 <a href="https://youtu.be/LGJ0dXNw0do">Flutter Netflix Clone (with Clean Architecture) Part 1</a>
 <br/>
 <img src="https://user-images.githubusercontent.com/10207753/84770526-2589fa00-aff1-11ea-83bf-f1255b9371ac.jpg" width="50" height="30" />
-<a href="#">Flutter Netflix Clone (with Clean Architecture) Part 2 coming soon</a>
+<a href="https://youtu.be/h-npw42mz8I">Flutter Netflix Clone (with Clean Architecture) Part 2</a>
 <br/>
 <img src="https://user-images.githubusercontent.com/10207753/84770526-2589fa00-aff1-11ea-83bf-f1255b9371ac.jpg" width="50" height="30" />
 <a href="#">Flutter Netflix Clone (with Clean Architecture) Part 3 coming soon</a>
